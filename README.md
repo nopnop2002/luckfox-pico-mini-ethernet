@@ -44,6 +44,7 @@ Swap:          8.7Gi        15Mi       8.7Gi
 # Install gcc-12 on PicoMini   
 The gcc included in the official image is gcc-11, but it is broken and unusable.   
 Follow the steps below to install gcc-12.   
+It will take about 60 minutes.   
 ```
 $ sudo apt update
 
@@ -91,12 +92,21 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
+# Update pip
+It will take about 10 minutes.   
+``
+# puthon3 -m pip install -U pip
+```
+
+
 # Install Adafruit Blinka on PicoMini
+It will take about 10 minutes.   
 ```
 $ python3 -m pip install adafruit-blinka
 ```
 
 # Install Adafruit CircuitPython Wiznet5k on PicoMini
+It will take about 10 minutes.   
 ```
 $ python3 -m pip install adafruit-circuitpython-wiznet5k
 ```
