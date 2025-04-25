@@ -121,5 +121,5 @@ $ sudo -E python3 main.py
 eth.ipv4_address=192.168.10.108
 ```
 
-The network via the W5500 is now available.   
+Python's low-level network interface via the W5500 is now available.   
 
