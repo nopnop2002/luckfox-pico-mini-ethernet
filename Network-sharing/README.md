@@ -160,7 +160,7 @@ This is a "consistent network device naming method".
 However, the connection name is not displayed in nmcli.   
 I do not know how to assign a fixed IP address to an interface without a connection name.   
 
-# Network sharing using Linx host
+# Network sharing using Linux host
 Since LuckFox is also Linux, we will refer to the host Linux as Ubuntu (even though it is Debian).   
 First, check the network interface on the Ubuntu side.   
 The top (enp25s0) is the actual interface, and the bottom (enx62ca1d071324) is the USB interface for RNDIS used to connect to LuckFox.   
