@@ -94,7 +94,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # Update pip
 It will take about 10 minutes.   
-``
+```
 # puthon3 -m pip install -U pip
 ```
 
