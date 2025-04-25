@@ -14,6 +14,7 @@ We can use `python's low-level network interface` with this module.
 - Adafruit CircuitPython Wiznet5k   
 
 # Hardware requirements   
+- LuckFox Pico Mini   
 - W5500 SPI Ethernet module   
 
 # Install Ubuntu on PicoMini   
