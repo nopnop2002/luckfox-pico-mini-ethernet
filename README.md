@@ -23,6 +23,21 @@ The SD card writing tool (SocToolKit.exe) and writing procedures are published [
 Instructions for network sharing using a Windows machine as the host can be found [here](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1106/Luckfox-Pico-Ultra-W/Luckfox-Pico-quick-start/Network-Sharing/ubuntu).   
 You can now download the software you need.   
 
+# Add swap partition
+```
+$ sudo mkswap /dev/mmcblk1p8
+Setting up swapspace version 1, size = 54726455296 bytes
+
+$ sudo swapon /dev/mmcblk1p8
+[  105.830584] Adding 53443804k swap on /dev/mmcblk1p8.  Priority:-2 extents:1 across:53443804k SS
+
+$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:            33Mi        13Mi       2.0Mi       0.0Ki        17Mi        16Mi
+Swap:          8.7Gi        15Mi       8.7Gi
+```
+
+
 # Install gcc-12 on PicoMini   
 The gcc included in the image is gcc-11, but it is broken and unusable.   
 Follow the steps below to install gcc-12.   
