@@ -71,6 +71,9 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 arm-linux-gnueabihf-gcc cannot be used because it is linked to gcc-11.   
 Recreate the link.   
 ```
+$ ls -l /usr/bin/arm-linux-gnueabihf-gcc
+lrwxrwxrwx 1 root root 6 Aug  5  2021 /usr/bin/arm-linux-gnueabihf-gcc -> gcc-11
+
 $ sudo unlink /usr/bin/arm-linux-gnueabihf-gcc
 
 $ sudo ln -s gcc-12 /usr/bin/arm-linux-gnueabihf-gcc
