@@ -201,6 +201,7 @@ $ sudo iptables -t nat -A POSTROUTING -o enp25s0 -j MASQUERADE
 Next, set up forwarding on LuckFox and check communication to the outside world.   
 This setting will disappear when you start LuckFox, so you will need to do it every time.   
 This will allow the network to pass through to the outside world.   
+Now you can use apt/pip commands with LuckFox.   
 ```
 $ sudo ip r add default via 172.32.0.100
 
