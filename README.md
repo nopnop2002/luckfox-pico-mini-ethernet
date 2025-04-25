@@ -123,4 +123,4 @@ eth.ipv4_address=192.168.10.108
 
 Python's low-level network interface via the W5500 is now available.   
 Details is [here](https://docs.python.org/3.13/library/socket.html).   
-[Here](https://realpython.com/python-sockets/) is some examples.   
+[Here](https://realpython.com/python-sockets/) is Programming Guide.   
