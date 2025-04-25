@@ -124,7 +124,7 @@ $ python3 -m pip install adafruit-circuitpython-wiznet5k
 
 
 # Test your W5500 module
-This script will get an IP address from the DHCP server and display it.   
+This script will get an IP address from your DHCP and display it.   
 ```
 $ git clone https://github.com/nopnop2002/luckfox-pico-mini-ethernet
 
