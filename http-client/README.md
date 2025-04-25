@@ -1,7 +1,5 @@
 # http-client
 ```
-$ cd http-client
-
 $ sudo -E python3 main.py
 Wiznet5k WebClient Test
 Chip Version: w5500
