@@ -5,7 +5,7 @@
 $ netcat -ulk 8080
 ```
 
-- Running udp client
+- Running udp client on PicoMini
 ```
 $ sudo -E python3 main.py --help
 usage: main.py [-h] [--host HOST] [--port PORT]
