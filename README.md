@@ -1,5 +1,5 @@
 # luckfox-pico-mini-ethernet
-LuxkFox Pico Mini is a small Linux board.   
+LuxkFox Pico Mini is a very small Linux board.   
 This board runs Ubuntu, but it does not have network functionality.   
 We can use the W5500 SPI Ethernet module.   
 We can use `python's low-level network interface` with this module.   
