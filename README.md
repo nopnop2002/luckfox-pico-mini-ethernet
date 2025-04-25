@@ -133,10 +133,10 @@ Adafruit-Blinka is a library that assumes Adafruit CircuitPython.
 CircuitPython has specific libraries, such as adafruit_neopixel, adafruit_bmp280, and adafruit_dotstar, which are all aimed at specific hardware.   
 These are very powerful libraries that allow you to use your hardware with minimal code.   
 
-The python that runs on Linux is Cpython, so some of these drivers and libraries will work correctly with Cpython, but some will not work with Cpython.   
-Some helper libraries cannot even be installed in a Cpython environment.   
+The python that runs on Linux is CPython, so some of these drivers and libraries will work correctly with CPython, but some will not work with CPython.   
+Some helper libraries cannot even be installed in a CPython environment.   
 Details of the python implementation are [here](https://picockpit.com/raspberry-pi/whats-the-difference-between-micropython-circuitpython-cpython-anyway/).   
 
-Some drivers work in the Cpython environment.   
+Some drivers and helper libraries work in the CPython environment.   
 ![Image](https://github.com/user-attachments/assets/a4977714-540c-42fe-8982-65bbaef524f2)
 ![Image](https://github.com/user-attachments/assets/7103e491-c949-4b9b-8bf4-5d41f15945a5)
