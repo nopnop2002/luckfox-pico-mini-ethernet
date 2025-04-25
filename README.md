@@ -7,6 +7,7 @@ This board runs Ubuntu, but it does not have network functionality.
 
 We can use the W5500 SPI Ethernet module.   
 We can use `python's low-level network interface` with this module.   
+![Image](https://github.com/user-attachments/assets/310b11db-7583-431e-8087-3f435c90b121)
 
 # Software requirements   
 - Adafruit Blinka   
