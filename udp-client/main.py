@@ -22,7 +22,7 @@ import argparse
 import time
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--host', help='tcp host', default="192.168.10.46")
+parser.add_argument('--host', help='udp host', default="192.168.10.46")
 parser.add_argument('--port', type=int, help='udp port', default=8080)
 args = parser.parse_args()
 print("args.host={}".format(args.host))
