@@ -73,10 +73,11 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 $ python3 -m pip install adafruit-blinka
 ```
 
-# Adafruit CircuitPython Wiznet5k
+# Install Adafruit CircuitPython Wiznet5k
 ```
 $ python3 -m pip install adafruit-circuitpython-wiznet5k
 ```
+
 # Wiring to the W5500 module
 |W5500||PicoMini|
 |:-:|:-:|:-:|
