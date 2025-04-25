@@ -39,7 +39,7 @@ Swap:          8.7Gi        15Mi       8.7Gi
 
 
 # Install gcc-12 on PicoMini   
-The gcc included in the image is gcc-11, but it is broken and unusable.   
+The gcc included in the official image is gcc-11, but it is broken and unusable.   
 Follow the steps below to install gcc-12.   
 ```
 $ sudo apt update
