@@ -122,5 +122,4 @@ eth.ipv4_address=192.168.10.108
 ```
 
 The network via the W5500 is now available.   
-The RNDIS network will no longer be required.   
 
