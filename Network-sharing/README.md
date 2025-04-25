@@ -163,7 +163,7 @@ I do not know how to assign a fixed IP address to an interface without a connect
 $ sudo ifconfig -a
 
 enx9efc2b4d1091: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        ether 9e:fc:2b:4d:10:91  txqueuelen 1000  (イーサネット)
+        ether 9e:fc:2b:4d:10:91  txqueuelen 1000  (Ethernet)
         RX packets 16  bytes 1689 (1.6 KiB)
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 0  bytes 0 (0.0 B)
