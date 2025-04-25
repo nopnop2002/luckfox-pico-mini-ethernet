@@ -2,6 +2,7 @@
 LuxkFox Pico Mini is a small Linux board.   
 This board runs Ubuntu, but it does not have network functionality.   
 We can use the W5500 SPI Ethernet module.   
+We can use python's low-level network interface with this module.   
 
 # Software requirements   
 - Adafruit Blinka   
