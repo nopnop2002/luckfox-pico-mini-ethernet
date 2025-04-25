@@ -47,7 +47,9 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
-# Change the link for arm-linux-gnueabihf-gcc
+# Recreate the link for arm-linux-gnueabihf-gcc   
+arm-linux-gnueabihf-gcc cannot be used because it is linked to gcc-11.   
+Recreate the link.   
 ```
 $ sudo unlink /usr/bin/arm-linux-gnueabihf-gcc
 
