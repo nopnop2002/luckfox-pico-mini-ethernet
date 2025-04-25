@@ -22,6 +22,7 @@ The SD card writing tool (SocToolKit.exe) and writing procedures are published [
 
 # Enable network sharing for RNDIS   
 Instructions for network sharing using a Windows machine as the host can be found [here](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1106/Luckfox-Pico-Ultra-W/Luckfox-Pico-quick-start/Network-Sharing/ubuntu).   
+Ubuntu and Debian can also work as network share servers for RNDIS.
 You can now download the software you need.   
 
 # Add swap partition
