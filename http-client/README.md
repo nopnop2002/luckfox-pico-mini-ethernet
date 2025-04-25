@@ -1,5 +1,6 @@
 # http-client
 HTTP client example using python's low-level network interface.   
+This project fetch text from [here](http://wifitest.adafruit.com/testwifi/index.html) and [here](http://httpbin.org/delay/3).   
 
 ```
 $ sudo -E python3 main.py
