@@ -1,7 +1,7 @@
 # udp-client
 UDP client example using python's low-level network interface.   
 
-- Running udp server on linux
+- Running udp server on linux host
 ```
 $ netcat -ulk 8080
 ```
