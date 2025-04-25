@@ -124,3 +124,9 @@ eth.ipv4_address=192.168.10.108
 Python's low-level network interface via the W5500 is now available.   
 Details is [here](https://docs.python.org/3.13/library/socket.html).   
 [Here](https://realpython.com/python-sockets/) is Programming Guide.   
+
+# Using Adafruit CircuitPython Libraries
+[Here]8https://learn.adafruit.com/circuitpython-essentials/circuitpython-libraries) is a list of drivers and helper libraries that can be used with Adafruit-Blinka.   
+Adafruit-Blinka is a library that assumes Adafruit CircuitPython.   
+The python that runs on Linux is Cpython, so some of these drivers and libraries will work correctly with Cpython, but some will not work with Cpython.   
+Some helper libraries cannot even be installed in a Cpython environment.   
