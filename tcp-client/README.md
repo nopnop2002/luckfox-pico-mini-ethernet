@@ -1,12 +1,12 @@
 # tcp-client
 TCP client example using python's low-level network interface.   
 
-- Running udp server on linux
+- Running tcp server on linux
 ```
 $ netcat -l 8080 -w 1
 ```
 
-- Running udp client on PicoMini
+- Running tcp client on PicoMini
 ```
 $ sudo -E python3 main.py --help
 usage: main.py [-h] [--host HOST] [--port PORT]
