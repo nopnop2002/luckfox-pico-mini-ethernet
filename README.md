@@ -92,7 +92,7 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
-# Update pip
+# Update pip on PicoMini
 It will take about 10 minutes.   
 ```
 $ python3 -m pip install -U pip
