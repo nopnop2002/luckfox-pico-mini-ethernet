@@ -1,4 +1,6 @@
 # http-client
+HTTP client example using python's low-level network interface.   
+
 ```
 $ sudo -E python3 main.py
 Wiznet5k WebClient Test
