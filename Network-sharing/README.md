@@ -159,6 +159,21 @@ Same as Ubuntu20.04.
 This is a "consistent network device naming method".   
 However, the connection name is not displayed in nmcli.   
 I do not know how to assign a fixed IP address to an interface without a connection name.   
+```
+$ sudo ifconfig -a
+
+enx9efc2b4d1091: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether 9e:fc:2b:4d:10:91  txqueuelen 1000  (イーサネット)
+        RX packets 16  bytes 1689 (1.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+$ nmcli conn show
+NAME                UUID                                  TYPE      DEVICE
+Wired connection 1  595b95eb-a0ab-4949-87b9-2a118e21c5f7  ethernet  enp0s25
+lo                  16ee843a-0cce-4a66-abec-bd6572b53956  loopback  lo
+```
 
 # Network sharing using Linux host
 Since LuckFox is also Linux, we will refer to the host Linux as Ubuntu (even though it is Debian).   
