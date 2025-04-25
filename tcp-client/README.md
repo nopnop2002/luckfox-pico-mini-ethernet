@@ -1,7 +1,7 @@
 # tcp-client
 TCP client example using python's low-level network interface.   
 
-- Running tcp server on linux
+- Running tcp server on linux host.
 ```
 $ netcat -l 8080 -w 1
 ```
