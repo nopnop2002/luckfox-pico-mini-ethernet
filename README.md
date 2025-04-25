@@ -25,7 +25,7 @@ Instructions for network sharing using a Windows machine as the host can be foun
 Ubuntu and Debian can also work as network share servers for RNDIS.   
 You can now download the software you need.   
 
-# Add swap partition
+# Add a swap partition to PicoMini
 ```
 $ sudo mkswap /dev/mmcblk1p8
 Setting up swapspace version 1, size = 54726455296 bytes
