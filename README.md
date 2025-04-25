@@ -131,6 +131,7 @@ Details is [here](https://docs.python.org/3.13/library/socket.html).
 [Here](https://learn.adafruit.com/circuitpython-essentials/circuitpython-libraries) is a list of drivers and helper libraries that can be used with Adafruit-Blinka.   
 Adafruit-Blinka is a library that assumes Adafruit CircuitPython.   
 CircuitPython has specific libraries, such as adafruit_neopixel, adafruit_bmp280, and adafruit_dotstar, which are all aimed at specific hardware.   
+These are very powerful libraries that allow you to use your hardware with minimal code.   
 
 The python that runs on Linux is Cpython, so some of these drivers and libraries will work correctly with Cpython, but some will not work with Cpython.   
 Some helper libraries cannot even be installed in a Cpython environment.   
