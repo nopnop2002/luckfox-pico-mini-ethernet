@@ -132,6 +132,7 @@ Details is [here](https://docs.python.org/3.13/library/socket.html).
 Adafruit-Blinka is a library that assumes Adafruit CircuitPython.   
 The python that runs on Linux is Cpython, so some of these drivers and libraries will work correctly with Cpython, but some will not work with Cpython.   
 Some helper libraries cannot even be installed in a Cpython environment.   
+Details of the python implementation are [here](https://picockpit.com/raspberry-pi/whats-the-difference-between-micropython-circuitpython-cpython-anyway/).   
 
 Some drivers work in the Cpython environment.   
 ![Image](https://github.com/user-attachments/assets/a4977714-540c-42fe-8982-65bbaef524f2)
