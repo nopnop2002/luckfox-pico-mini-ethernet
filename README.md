@@ -21,7 +21,7 @@ The SD card writing tool (SocToolKit.exe) and writing procedures are published [
 Instructions for network sharing using a Windows machine as the host can be found [here](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1106/Luckfox-Pico-Ultra-W/Luckfox-Pico-quick-start/Network-Sharing/ubuntu).   
 You can now download the software you need.   
 
-# Install gcc-12   
+# Install gcc-12 on PicoMini   
 The gcc included in the image is gcc-11, but it is broken and unusable.   
 Follow the steps below to install gcc-12.   
 ```
@@ -68,12 +68,12 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
-# Install Adafruit Blinka
+# Install Adafruit Blinka on PicoMini
 ```
 $ python3 -m pip install adafruit-blinka
 ```
 
-# Install Adafruit CircuitPython Wiznet5k
+# Install Adafruit CircuitPython Wiznet5k on PicoMini
 ```
 $ python3 -m pip install adafruit-circuitpython-wiznet5k
 ```
