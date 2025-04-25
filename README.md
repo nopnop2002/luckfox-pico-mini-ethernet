@@ -87,7 +87,7 @@ $ python3 -m pip install adafruit-circuitpython-wiznet5k
 |3.3V|--|3.3V|
 
 
-# Test Adafruit CircuitPython Wiznet5k
+# Test your W5500 module
 This script will get a DHCP address from your router.
 ```
 $ git clone https://github.com/nopnop2002/luckfox-pico-mini-ethernet
