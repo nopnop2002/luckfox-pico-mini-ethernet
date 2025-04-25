@@ -17,6 +17,7 @@ We can use `python's low-level network interface` with this module.
 
 # Install Ubuntu on PicoMini   
 The Ubuntu image is available from the Google Cloud Link [here](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1103/Luckfox-Pico-prepare).    
+The Ubuntu image is in the backup folder.   
 The SD card writing tool (SocToolKit.exe) and writing procedures are published [here](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-SD-Card-burn-image/).   
 
 # Enable network sharing for RNDIS   
