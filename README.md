@@ -28,8 +28,23 @@ Ubuntu and Debian can also work as network share servers for RNDIS.
 Network sharing using a Linux environment such as Ubuntu/Debian as the host is [here](https://github.com/nopnop2002/luckfox-pico-mini-ethernet/tree/main/Network-sharing).   
 You can now download the software you need.   
 
-# Add a swap partition to PicoMini
+# Add a swap partition to PicoMini   
+The last partition(mmcblk1p8) is unused.   
+So we will use this partition as SWAP.   
 ```
+$ lsblk
+NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+mtdblock0    31:0    0  128M  0 disk
+mmcblk1     179:0    0 14.8G  0 disk
+tqmmcblk1p1 179:1    0   32K  0 part
+tqmmcblk1p2 179:2    0  512K  0 part
+tqmmcblk1p3 179:3    0  256K  0 part
+tqmmcblk1p4 179:4    0   32M  0 part
+tqmmcblk1p5 179:5    0  512M  0 part /oem
+tqmmcblk1p6 179:6    0  256M  0 part /userdata
+tqmmcblk1p7 179:7    0    6G  0 part /
+mqmmcblk1p8 179:8    0  8.1G  0 part
+
 $ sudo mkswap /dev/mmcblk1p8
 Setting up swapspace version 1, size = 54726455296 bytes
 
