@@ -47,7 +47,6 @@ tqmmcblk1p7 179:7    0    6G  0 part /
 mqmmcblk1p8 179:8    0  8.1G  0 part
 
 $ sudo mkswap /dev/mmcblk1p8
-mkswap: /dev/mmcblk1p8: warning: wiping old swap signature.
 Setting up swapspace version 1, size = 8.1 GiB (8649404416 bytes)
 no label, UUID=711d63de-3b59-40c2-b668-baf626b9be6e
 
