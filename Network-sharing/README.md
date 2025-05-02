@@ -157,7 +157,7 @@ Same as Ubuntu20.04.
 
 # Debian12
 This is a "consistent network device naming method".   
-However, the connection name is not displayed in nmcli.   
+However, We can't find the connection name in nmcli.   
 I do not know how to assign a fixed IP address to an interface without a connection name.   
 ```
 $ sudo ifconfig -a
