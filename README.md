@@ -69,6 +69,8 @@ $ sudo apt update
 
 $ sudo apt install g++-12
 
+$ sudo apt install --reinstall libc6-dev -y
+
 $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 11
 
 $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 12
