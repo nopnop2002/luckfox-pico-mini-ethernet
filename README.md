@@ -29,6 +29,7 @@ Network sharing using a Linux environment such as Ubuntu/Debian as the host is [
 You can now download the software you need.   
 
 # Add a swap partition to PicoMini   
+I used a 16GB Micro SD card.   
 The last partition(mmcblk1p8) is unused.   
 So we will use this partition as SWAP.   
 ```
@@ -46,15 +47,17 @@ tqmmcblk1p7 179:7    0    6G  0 part /
 mqmmcblk1p8 179:8    0  8.1G  0 part
 
 $ sudo mkswap /dev/mmcblk1p8
-Setting up swapspace version 1, size = 54726455296 bytes
+mkswap: /dev/mmcblk1p8: warning: wiping old swap signature.
+Setting up swapspace version 1, size = 8.1 GiB (8649404416 bytes)
+no label, UUID=711d63de-3b59-40c2-b668-baf626b9be6e
 
 $ sudo swapon /dev/mmcblk1p8
 [  105.830584] Adding 53443804k swap on /dev/mmcblk1p8.  Priority:-2 extents:1 across:53443804k SS
 
 $ free -h
                total        used        free      shared  buff/cache   available
-Mem:            33Mi        13Mi       2.0Mi       0.0Ki        17Mi        16Mi
-Swap:          8.7Gi        15Mi       8.7Gi
+Mem:            33Mi        14Mi       1.0Mi       0.0Ki        17Mi        16Mi
+Swap:          9.1Gi        22Mi       9.0Gi
 ```
 
 
