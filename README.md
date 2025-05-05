@@ -31,7 +31,7 @@ You can now download the software you need.
 # Add a swap partition to PicoMini   
 I used a 16GB Micro SD card.   
 The last partition(mmcblk1p8) is unused.   
-So we will use this partition as SWAP.   
+So we can use this partition as SWAP.   
 ```
 $ lsblk
 NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
