@@ -2,7 +2,7 @@
 LuckFox Pico Mini is a very small Linux board.   
 ![Image](https://github.com/user-attachments/assets/99665cda-ba36-4de3-a1a9-d8cf117ef590)
 
-This board runs Ubuntu, but it does not have network functionality.   
+This board runs Ubuntu, but it does not have Ethernet/WiFi functionality.   
 ![Image](https://github.com/user-attachments/assets/7938e371-6be8-4acd-82b5-e38e85d1f44c)
 
 We can use the W5500 SPI Ethernet module.   
