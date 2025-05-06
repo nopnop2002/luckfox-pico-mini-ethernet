@@ -202,7 +202,7 @@ enx62ca1d071324: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 ```
 
 Set up forwarding on the Ubuntu side.   
-This setting will disappear when you start Ubuntu, so you will need to do it again every time you start it.   
+`This setting will disappear when you start Ubuntu, so you will need to do it again every time you start it.`   
 ```
 $ sudo sysctl net.ipv4.ip_forward=1
 net.ipv4.ip_forward = 1
