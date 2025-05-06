@@ -214,7 +214,7 @@ $ sudo iptables -t nat -A POSTROUTING -o enp25s0 -j MASQUERADE
 ```
 
 Next, set up forwarding on LuckFox and check communication to the outside world.   
-This setting will disappear when you start LuckFox, so you will need to do it every time.   
+`This setting will disappear when you start LuckFox, so you will need to do it every time.`   
 This will allow the network to pass through to the outside world.   
 Now you can use apt/pip commands with LuckFox.   
 ```
@@ -223,7 +223,7 @@ $ sudo ip r add default via 172.32.0.100
 $ sudo sh -c "echo "nameserver 8.8.8.8" >> /etc/resolv.conf"
 nameserver
 
-$ ping www.yahoo.co.jp -c 5
+$ ping www.google.com -c 5
 PING edge12.g.yimg.jp (182.22.28.252): 56 data bytes
 64 bytes from 182.22.28.252: icmp_seq=0 ttl=54 time=22.667 ms
 64 bytes from 182.22.28.252: icmp_seq=1 ttl=54 time=33.339 ms
