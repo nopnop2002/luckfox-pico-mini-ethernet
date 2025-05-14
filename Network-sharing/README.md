@@ -99,7 +99,7 @@ Wired connection 2  3bfa1614-912b-3797-b7bc-53bea6b8217d  ethernet  enx0a1c4376e
 Wired connection 1  2a8a02a6-1692-3945-ac49-740b257bf467  ethernet  enp25s0
 ```
 
-Therefore, we will use the nmcli command to assign a fixed IP address (172.32.0.100) to this interface (enx0a1c4376e2be).   
+We will use the nmcli command to assign a fixed IP address (172.32.0.100) to this interface (enx0a1c4376e2be).   
 ```
 $ sudo nmcli connection down "Wired connection 2"
 $ sudo nmcli connection modify "Wired connection 2" ipv4.addresses "172.32.0.100/16"
