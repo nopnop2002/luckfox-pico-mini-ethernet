@@ -23,6 +23,7 @@ The Ubuntu image is in the backup folder.
 The SD card writing tool (SocToolKit.exe) and writing procedures are published [here](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-SD-Card-burn-image/).   
 
 # Enable network sharing for RNDIS   
+The Ubuntu image provides networking using the RNDIS protocol.   
 Instructions for network sharing using a Windows machine as the host can be found [here](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-RV1106/Luckfox-Pico-Ultra-W/Luckfox-Pico-quick-start/Network-Sharing/ubuntu).   
 Ubuntu and Debian can also work as network share servers for RNDIS.   
 Network sharing using a Linux environment such as Ubuntu/Debian as the host is [here](https://github.com/nopnop2002/luckfox-pico-mini-ethernet/tree/main/Network-sharing).   
@@ -61,7 +62,7 @@ Swap:          9.1Gi        22Mi       9.0Gi
 
 
 # Install gcc-12 on PicoMini   
-The gcc included in the official image is gcc-11, but it is broken and unusable.   
+The gcc available in the official images is gcc-11, but it's broken and unusable.   
 Follow the steps below to install gcc-12.   
 `apt update/install` will take about 60 minutes.   
 ```
