@@ -150,7 +150,7 @@ This script will get an IP address from your DHCP and display it.
 ```
 $ git clone https://github.com/nopnop2002/luckfox-pico-mini-ethernet
 
-$ cd connect-dhcp
+$ cd luckfox-pico-mini-ethernet/connect-dhcp
 
 $ sudo -E python3 main.py
 eth.ipv4_address=192.168.10.108
